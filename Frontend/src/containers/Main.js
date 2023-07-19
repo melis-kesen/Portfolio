@@ -24,13 +24,8 @@ const Main = () => {
 
   return (
     <div className={isDark ? "dark-mode" : null}>
-      
-   
             <Header />
             <About />
-         
-     
-    
     </div>
   );
 };
