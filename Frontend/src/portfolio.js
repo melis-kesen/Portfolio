@@ -1,12 +1,12 @@
 
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; 
+//import splashAnimation from "./assets/lottie/splashAnimation"; 
 
 // Splash Screen
 
 const splashScreen = {
   enabled: true, // set false to disable splash screen
-  animation: splashAnimation,
+  //animation: splashAnimation,
   duration: 2000 // Set animation duration as per your animation
 };
 
