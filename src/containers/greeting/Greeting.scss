@@ -1,0 +1,181 @@
+@import "../../_globalColor";
+
+.main {
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+  margin-top: 1rem;
+  text-align: center;
+  //height: 800px;
+}
+.greet-main {
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+  //margin-top: 2rem;
+  text-align: center;
+  height: 90vh;
+  
+}
+
+.greeting-main {
+  display: flex;
+}
+
+.subTitle {
+  color: $subTitle !important;
+}
+
+.greeting-main {
+  display: flex;
+  //margin-top: 25vh;
+}
+
+.greeting-main > * {
+  flex: 1;
+  margin-bottom: 30px;
+}
+.button-greeting-div {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.greeting-text {
+  font-size: 45px;
+  line-height: 1.1;
+  color: $textColor !important;
+}
+
+.greeting-text-p {
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.greeting-image-div > img {
+  max-width: 100%;
+  height: auto;
+}
+
+.wave-emoji {
+  animation-duration: 1.8s;
+  animation-iteration-count: infinite;
+  animation-name: wave;
+  display: inline-block;
+  transform-origin: 70% 70%;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(-10deg);
+  }
+  20% {
+    transform: rotate(12deg);
+  }
+  30% {
+    transform: rotate(-10deg);
+  }
+  40% {
+    transform: rotate(9deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+  .greeting-text {
+    font-size: 50px;
+  }
+  .greeting-text-p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .button-greeting-div {
+    justify-content: space-around;
+  }
+  .greeting-text {
+    font-size: 30px;
+    text-align: center;
+  }
+  .greeting-text-p {
+    font-size: 16px;
+    line-height: normal;
+    text-align: center;
+  }
+  .greeting-main {
+    display: block;
+  }
+  .greeting-image-div {
+    height: 256px;
+  }
+}
+
+@media (max-width: 320px) {
+  .main {
+    width: auto;
+  }
+}
+.div-top {
+  height: 25vh;
+}
+.div-bottom {
+  height: 20vh;
+}
+
+/* DEMO-SPECIFIC STYLES */
+.input-text {
+  background: #fff;
+  overflow: hidden;
+  width: 440px;
+  margin: 0 auto;
+  margin-top: 10rem;
+  padding: .75rem 1rem;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 2px 2px rgba(0,0,0,.1);
+}
+
+.typewriter h1 {
+  color: black;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  //letter-spacing: .1em; /* Adjust as needed */
+  font-size:  20px;
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+    
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+
+
+
+
+
+
+
+
+

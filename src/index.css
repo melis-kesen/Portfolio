@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "Agustina Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Agustina Regular"),
+    url("./assets/fonts/Agustina.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"),
+    url("./assets/fonts/Montserrat-Regular.ttf") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inconsolata";
+  src: local("Inconsolata"),
+    url("./assets/fonts/Inconsolata-Regular.ttf") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"),
+    url("./assets/fonts/Roboto-Regular.ttf") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "WaitingfortheSunrise";
+  src: local("WaitingfortheSunrise"),
+    url("./assets/fonts/WaitingfortheSunrise-Regular.ttf") format("woff");
+  font-display: swap;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+html,
+body {
+  scroll-behavior: smooth;
+
+}
+body {
+  margin: 0;
+  font: 19px / 23px Inconsolata, "Inconsolata", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #FAF3F0;
+}
+/* Media Query */
+@media (max-width: 1380px) {
+  html,
+  body {
+    font-size: rem;
+    line-height: normal;
+  }
+}
