@@ -22,7 +22,7 @@ export default function Greeting() {
     <Fade bottom duration={1000} distance="40px">
       <div className="greet-main" id="greeting">
         <div className="div-top">
-        <DisplayLottie animationData={greeting.animation}  ></DisplayLottie>
+       {/*<DisplayLottie animationData={greeting.animation}  ></DisplayLottie>*/}
         </div>
         <div className="greeting-main">
           

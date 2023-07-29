@@ -65,17 +65,15 @@ const skillsSection = {
     },
     {
       skillName: "c++",
-      fontAwesomeClassname: "fas fa-c-plus-plus"
+      fontAwesomeClassname: "fa-solid fa-c fa-solid fa-plus"
     },
     {
       skillName: "c",
-      fontAwesomeClassname: "fas fa-c"
+      fontAwesomeClassname: "fa-solid fa-c"
     },
   ],
   display: true
 };
-
-
 const educationInfo = {
   display: true, 
   schools: [

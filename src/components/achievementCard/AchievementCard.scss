@@ -18,22 +18,26 @@
   line-height: 1.5rem;
 }
 .certificate-card {
-  background-color: $lightBackground2;
-  box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
+  //background-color: $lightBackground2;
+  //box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
   padding: 1.5rem;
   border-radius: 10px;
-  border: 1px solid $lightBorder1;
+  //border: 1px solid $lightBorder1;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  border: 2px solid black;
-  box-shadow: 5px 5px gray 
+  //border: 2px solid black;
+  //box-shadow: 5px 5px gray 
 }
 .certificate-detail-div {
   text-align: center;
 }
 .certificate-card:hover {
   box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
+    border: 2px solid black;
+  box-shadow: 5px 5px gray ;
+
+  //border: 1px solid $lightBorder1;
 }
 .dark-mode.certificate-card:hover {
   box-shadow: $achievementCertificateCardHoverDark 0px 20px 30px -10px;
