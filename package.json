@@ -1,12 +1,12 @@
 {
-  "name": "melisportfolio",
+  "name": "portfolio",
   "version": "1.0.0",
   "description": "## A clean, beautiful and responsive portfolio template for Developers!",
   "main": "fetch.js",
   "dependencies": {
     "colorthief": "^2.3.0",
+    "dotenv": "^16.3.1",
     "enzyme": "^3.11.0",
-    
     "gh-pages": "^2.1.1",
     "jest-canvas-mock": "^2.3.1",
     "react": "^16.10.2",
