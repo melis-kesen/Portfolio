@@ -14,7 +14,7 @@ export default function GithubProfileCard({prof}) {
   return (
     <Fade bottom duration={2000} distance="20px">
       <div className="main github-prof" id="contact">
-        <h2 className="prof-title">LET'S GET IN TOUCH!</h2>
+        <h2 className="prof-title animate-charcter">LET'S GET IN TOUCH!</h2>
         <div className="row">
           <div className="main-content-profile">
             <div className="blog-header">

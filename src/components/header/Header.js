@@ -21,8 +21,8 @@ function Header() {
   const viewAchievement = achievementSection.display;
 
   return (
-    <Headroom>
-      <header className={isDark ? "dark-menu header" : "header "}>
+    <Headroom className="headroom">
+      <header class="headroom" className={isDark ? "dark-menu header" : "header "}>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label
           className="menu-icon"
