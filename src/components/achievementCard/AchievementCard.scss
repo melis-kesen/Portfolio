@@ -7,9 +7,9 @@
 }
 .card-title {
   color: $titleColor;
-  font-size: 1.375rem;
+  //font-size: 1.375rem;
   line-height: 24px;
-  font-weight: 700;
+  //font-weight: 700;
   margin: 15px 0 0 0;
 }
 .card-subtitle {
@@ -18,24 +18,24 @@
   line-height: 1.5rem;
 }
 .certificate-card {
-  //background-color: $lightBackground2;
-  //box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
+  background-color: $lightBackground2;
+  box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
   padding: 1.5rem;
   border-radius: 10px;
-  //border: 1px solid $lightBorder1;
+  border: 1px solid $lightBorder1;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  //border: 2px solid black;
-  //box-shadow: 5px 5px gray 
+  border: 2px solid black;
+  box-shadow: 5px 5px gray 
 }
 .certificate-detail-div {
   text-align: center;
 }
 .certificate-card:hover {
   box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
-  border: 2px solid black;
-  box-shadow: 5px 5px gray 
+  //border: 2px solid black;
+  //box-shadow: 5px 5px gray 
 }
 .dark-mode.certificate-card:hover {
   box-shadow: $achievementCertificateCardHoverDark 0px 20px 30px -10px;
@@ -67,9 +67,9 @@
   border-radius: 4px;
   display: inline-flex;
   font-size: 0.75rem;
-  height: 2em;
+  height: 2.5em;
   justify-content: center;
-  white-space: nowrap;
+  //white-space: nowrap;
   line-height: 1.5;
   margin: 0 0.5rem 0.5rem 0;
   padding: 0 0.75em;
@@ -80,6 +80,6 @@ span.certificate-tag:hover {
   background: $buttonHover;
 }
 span.certificate-tag{
-  border: 2px solid black;
+  //border: 2px solid black;
   //box-shadow: 5px 5px gray 
 } 

@@ -4,6 +4,7 @@ import Button from "../../components/button/Button";
 import {openSource, socialMediaLinks} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 import Loading from "../../containers/loading/Loading";
+import {Fade} from "react-reveal";
 export default function Projects() {
   const GithubRepoCard = lazy(() =>
     import("../../components/githubRepoCard/GithubRepoCard")
@@ -44,9 +45,15 @@ export default function Projects() {
     openSource.display
   ) {
     return (
+      <Fade bottom duration={2000} distance="20px">
       <Suspense fallback={renderLoader()}>
         <div className="main" id="opensource">
-          <h3 className="project-title">Open Source Projects</h3>
+          <h2 className="project-title">OPEN SOURCE PROJECTS</h2>
+          <p className={
+                isDark
+                  ? "dark-mode subTitle skills-text-subtitle"
+                  : "subTitle skills-text-subtitle"
+              }>This part is under construction...</p>
           <div className="repo-cards-div-main">
             {repo.map((v, i) => {
               if (!v) {
@@ -60,13 +67,14 @@ export default function Projects() {
             })}
           </div>
           <Button
-            text={"More Projects"}
+            text={"Go to GitHub Repo"}
             className="project-button"
             href={socialMediaLinks.github}
             newTab={true}
           />
         </div>
       </Suspense>
+      </Fade>
     );
   } else {
     return <FailedLoading />;

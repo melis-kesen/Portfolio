@@ -12,9 +12,9 @@ export default function GithubProfileCard({prof}) {
     prof.hireable = "No";
   }
   return (
-    <Fade bottom duration={1000} distance="20px">
+    <Fade bottom duration={2000} distance="20px">
       <div className="main github-prof" id="contact">
-        <h3 className="prof-title">Let's get in touch!</h3>
+        <h2 className="prof-title">LET'S GET IN TOUCH!</h2>
         <div className="row">
           <div className="main-content-profile">
             <div className="blog-header">

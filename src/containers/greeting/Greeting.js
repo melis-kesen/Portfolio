@@ -12,7 +12,9 @@ import {illustration, greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 import ToggleSwitch from "../../components/ToggleSwitch/ToggleSwitch";
 import Header from "../../components/header/Header";
+import { TypeAnimation } from 'react-type-animation';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+
 export default function Greeting() {
   const {isDark} = useContext(StyleContext);
   if (!greeting.displayGreeting) {
@@ -20,7 +22,7 @@ export default function Greeting() {
   }
   
   return (
-    <Fade bottom duration={1000} distance="40px">
+    <Fade bottom duration={2000} distance="40px">
       <div className="greet-main" id="greeting">
         <div className="div-top">
        {/*<DisplayLottie animationData={greeting.animation}  ></DisplayLottie>*/}
@@ -37,15 +39,29 @@ export default function Greeting() {
                 {greeting.title}{" "}
                 {/*<span className="wave-emoji">{emoji("👋")}</span>*/}
               </h1>
-              <p
-                className={
-                  isDark
-                    ? "dark-mode greeting-text-p "
-                    : "greeting-text-p subTitle"
-                }
-              >
-                {greeting.subTitle} 
-              </p>
+              <p className={
+                isDark
+                  ? "dark-mode greeting-text-p "
+                  : "greeting-text-p subTitle"
+              }> 
+              <TypeAnimation
+               
+      sequence={[
+        'Software Engineer', // Types 'One'
+        1000, // Waits 1s
+        'Full Stack Developer', // Deletes 'One' and types 'Two'
+        2000, // Waits 2s
+        'Curious Learner', // Types 'Three' without deleting 'Two'
+        () => {
+          console.log('Sequence completed');
+        },
+      ]}
+      wrapper="span"
+      cursor={true}
+      repeat={Infinity}
+      //style={{ fontSize: '2em', display: 'inline-block' }}
+    />
+    </p>
               <SocialMedia />
               <div className="button-greeting-div">
                 <Button text="Contact me" href="#contact" />

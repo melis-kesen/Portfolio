@@ -1,6 +1,7 @@
 import React, {useContext} from "react";
 //import "./Skills.scss";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
+import ToolSkill from "../../components/softwareSkills/ToolSkill";
 import {illustration, skillsSection} from "../../portfolio";
 import {Fade} from "react-reveal";
 import codingPerson from "../../assets/lottie/codingPerson";
@@ -15,13 +16,13 @@ export default function Skills() {
   return (
     <div className={isDark ? "dark-mode main" : "main"} id="skills">
       <div className="skills-main-div">
-        <Fade bottom duration={1000}>
+        <Fade bottom duration={2000} distance="20px">
           <div className="skills-text-div">
-            <h3
+            <h2
               className={isDark ? "dark-mode skills-heading" : "skills-heading"}
             >
               {skillsSection.title}{" "}
-            </h3>
+            </h2>
             <p
               className={
                 isDark
@@ -30,7 +31,10 @@ export default function Skills() {
               }
             >
               {skillsSection.subTitle}
+              <br></br>
+              {skillsSection.skills}
             </p>
+   
             <SoftwareSkill />
           </div>
         </Fade>

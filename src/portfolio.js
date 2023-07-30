@@ -34,16 +34,10 @@ const socialMediaLinks = {
 };
 
 const skillsSection = {
-  title: "About",
-  subTitle: "A passionate software developer",
+  title: "ABOUT",
+  subTitle: "Hey, I am Melis Kesen from Istanbul,Turkey. ",
   skills: [
-    emoji(
-      "Skills"
-    ),
-    emoji(""),
-    emoji(
-      ""
-    )
+   emoji("As a passionate software developer, here are some of the things I am good at"),
   ],
 
   softwareSkills: [
@@ -168,7 +162,7 @@ const openSource = {
 };
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications"),
+  title: emoji("ACHIEVEMENTS AND CERTIFICATIONS"),
   subtitle:
     "Achievements and certifications that i have done",
 
