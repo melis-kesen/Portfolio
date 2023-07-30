@@ -13,8 +13,8 @@ export default function GithubProfileCard({prof}) {
   }
   return (
     <Fade bottom duration={1000} distance="20px">
-      <div className="main" id="contact">
-        <h3 className="prof-title">Reach Out to me!</h3>
+      <div className="main github-prof" id="contact">
+        <h3 className="prof-title">Let's get in touch!</h3>
         <div className="row">
           <div className="main-content-profile">
             <div className="blog-header">

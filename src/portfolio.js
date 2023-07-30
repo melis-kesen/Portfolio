@@ -21,7 +21,7 @@ const greeting = {
   ),
   animation: nimation,
   resumeLink:
-    "hey", 
+    "../../assets/resume.pdf", 
   displayGreeting: true 
 };
 
@@ -34,11 +34,11 @@ const socialMediaLinks = {
 };
 
 const skillsSection = {
-  title: "Skills",
-  subTitle: "",
+  title: "About",
+  subTitle: "A passionate software developer",
   skills: [
     emoji(
-      ""
+      "Skills"
     ),
     emoji(""),
     emoji(
@@ -48,28 +48,44 @@ const skillsSection = {
 
   softwareSkills: [
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
       skillName: "c++",
-      fontAwesomeClassname: "fa-solid fa-c fa-solid fa-plus"
+      fontAwesomeClassname: require("./assets/images/cpp.png")
     },
     {
       skillName: "c",
-      fontAwesomeClassname: "fa-solid fa-c"
+      fontAwesomeClassname: require("./assets/images/c.png")
+    },
+    {
+      skillName: "python",
+      fontAwesomeClassname: require("./assets/images/python.png")
+    },
+    {
+      skillName: "JavaScript",
+      fontAwesomeClassname: require("./assets/images/js.png")
+    },
+    {
+      skillName: "nodejs",
+      fontAwesomeClassname: require("./assets/images/nodejs.png")
+    },
+    {
+      skillName: "reactjs",
+      fontAwesomeClassname: require("./assets/images/react.png")
+    },
+    {
+      skillName: "vscode",
+      fontAwesomeClassname: require("./assets/images/visual-studio.png")
+    },
+    {
+      skillName: "gitlab",
+      fontAwesomeClassname: require("./assets/images/gitlab.png")
+    },
+    {
+      skillName: "jira",
+      fontAwesomeClassname: require("./assets/images/jira.png")
+    },
+    {
+      skillName: "confluence",
+      fontAwesomeClassname: require("./assets/images/confluence.png")
     },
   ],
   display: true
@@ -154,55 +170,60 @@ const openSource = {
 const achievementSection = {
   title: emoji("Achievements And Certifications"),
   subtitle:
-    "",
+    "Achievements and certifications that i have done",
 
   achievementsCards: [
     {
       title: "TÜBİTAK 2242",
       subtitle:
-        "TÜBİTAK 2242",
-      image: require("./assets/images/tubitak.jpg"),
+        "TÜBİTAK 2242 University Students Research Project Competition, 1st place, September 2021 ",
+      image: "",
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
-          name: "Certification",
+          name: "Analysis, Modeling And Control of Drivers Behaviour In Semi-Self Driving Cars",
           url: ""
         },
         {
-          name: "Award Letter",
+          name: "Journal",
           url: ""
         },
         {
-          name: "Google Code-in Blog",
+          name: "Final Project",
           url: ""
         }
       ]
     },
     {
-      title: "C/C++ Programming Language",
+      title: "C & System Programmers Association",
       subtitle:
         "C/C++ Programming Language",
-      image: require("./assets/images/tubitak.jpg"),
+      image: "",
       imageAlt: "",
       footerLink: [
         {
-          name: "View Google Assistant Action",
+          name: "C Programming Language Certificate (160 hours)",
           url: ""
         }
       ]
     },
 
     {
-      title: "Data Science Orientation",
-      subtitle: "Data Science Orientation",
-      image: require("./assets/images/tubitak.jpg"),
+      title: "TOK'2019",
+      subtitle: "Publication 21. Automatic Control Turkish National Committee TOK 2019",
+      image: "",
       imageAlt: "",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
+          name: "Microrobot Motion Control in Liquid Media",
           url: ""
-        }
+        },
+        {
+          name: "Increasing Lateral Forces of Microrobot Using Passive Diamagnetic Levitation",
+          url: ""
+        },
+        {name: "Best oral presentation 2nd prize", url: ""},
+       
       ]
     }
   ],

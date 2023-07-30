@@ -34,10 +34,8 @@
 }
 .certificate-card:hover {
   box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
-    border: 2px solid black;
-  box-shadow: 5px 5px gray ;
-
-  //border: 1px solid $lightBorder1;
+  border: 2px solid black;
+  box-shadow: 5px 5px gray 
 }
 .dark-mode.certificate-card:hover {
   box-shadow: $achievementCertificateCardHoverDark 0px 20px 30px -10px;

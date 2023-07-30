@@ -6,12 +6,13 @@ import landingPerson from "../../assets/lottie/landingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
-
+import { Document, Page, pdfjs } from 'react-pdf';
+import pdf from "../../assets/resume.pdf";
 import {illustration, greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 import ToggleSwitch from "../../components/ToggleSwitch/ToggleSwitch";
 import Header from "../../components/header/Header";
-
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 export default function Greeting() {
   const {isDark} = useContext(StyleContext);
   if (!greeting.displayGreeting) {
@@ -53,8 +54,9 @@ export default function Greeting() {
                   <Button
                     text="See my resume"
                     newTab={true}
-                    href={greeting.resumeLink}
+                    href={pdf}
                   />
+
                 )}
               </div>
             </div>
