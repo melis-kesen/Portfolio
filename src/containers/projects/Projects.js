@@ -53,7 +53,7 @@ export default function Projects() {
                 isDark
                   ? "dark-mode subTitle skills-text-subtitle"
                   : "subTitle skills-text-subtitle"
-              }>This part is under construction...</p>
+              }></p>
           <div className="repo-cards-div-main">
             {repo.map((v, i) => {
               if (!v) {
@@ -67,7 +67,7 @@ export default function Projects() {
             })}
           </div>
           <Button
-            text={"Go to GitHub Repo"}
+            text={"MORE PROJECT"}
             className="project-button"
             href={socialMediaLinks.github}
             newTab={true}
