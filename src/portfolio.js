@@ -84,26 +84,6 @@ const skillsSection = {
   ],
   display: true
 };
-const educationInfo = {
-  display: true, 
-  schools: [
-    {
-      schoolName: "İstanbul Technical University",
-      logo: require("./assets/images/itu.jpg"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2021 - April 2022",
-      desc: "Took courses about Software Engineering, Algorithm Analysis, Data Structure, Operating Systems, ...",
-    },
-    {
-      schoolName: "Yıldız Technical University",
-      logo: require("./assets/images/ytu.png"),
-      subHeader: "Bachelor of Science in Mechatronics Engineering",
-      duration: "September 2016 - April 2021",
-      desc: "Ranked 2nd in the program",
-      descBullets: ["TUBITAK 2242", "MEKON"]
-    }
-  ]
-};
 
 const techStack = {
   viewSkillBars: true,
@@ -122,38 +102,6 @@ const techStack = {
     }
   ],
   displayCodersrank: false
-};
-
-
-const workExperiences = {
-  display: true, 
-  experience: [
-    {
-      role: "Software Engineer",
-      company: "Turkish Aerospace",
-      companylogo: require("./assets/images/tai.jpg"),
-      date: "Aug 2021 – Present",
-      desc: "Full Stack Development",
-      /*descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]*/
-    },
-    {
-      role: "Assistant Engineer",
-      company: "Turkish Aerospace",
-      companylogo: require("./assets/images/tai.jpg"),
-      date: "Apr 2021 – Aug 2021",
-      desc: "MGP Program"
-    },
-    {
-      role: "Project Student",
-      company: "B/S/H/",
-      companylogo: require("./assets/images/bsh.jpg"),
-      date: "Sep 2020 – Apr 2021",
-      desc: "Data Science Project"
-    }
-  ]
 };
 
 const openSource = {
@@ -239,9 +187,7 @@ export {
   socialMediaLinks,
   splashScreen,
   skillsSection,
-  educationInfo,
   techStack,
-  workExperiences,
   openSource,
   achievementSection,
   contactInfo,
