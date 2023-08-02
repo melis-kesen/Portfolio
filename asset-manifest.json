@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.d1c1d680.css",
+    "main.js": "/Portfolio/static/js/main.779bf55b.js",
+    "static/css/64.641ad985.chunk.css": "/Portfolio/static/css/64.641ad985.chunk.css",
+    "static/js/64.b116668a.chunk.js": "/Portfolio/static/js/64.b116668a.chunk.js",
+    "static/css/769.fc04f371.chunk.css": "/Portfolio/static/css/769.fc04f371.chunk.css",
+    "static/js/769.e01fbd25.chunk.js": "/Portfolio/static/js/769.e01fbd25.chunk.js",
+    "static/media/Montserrat-Regular.ttf": "/Portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/Roboto-Regular.ttf": "/Portfolio/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
+    "static/media/Inconsolata-Regular.ttf": "/Portfolio/static/media/Inconsolata-Regular.54748073d423bc6646f7.ttf",
+    "static/media/Agustina.woff": "/Portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/resume.pdf": "/Portfolio/static/media/resume.c4278bff16457569bca9.pdf",
+    "static/media/WaitingfortheSunrise-Regular.ttf": "/Portfolio/static/media/WaitingfortheSunrise-Regular.a2dcb423663624a3db23.ttf",
+    "index.html": "/Portfolio/index.html",
+    "main.d1c1d680.css.map": "/Portfolio/static/css/main.d1c1d680.css.map",
+    "main.779bf55b.js.map": "/Portfolio/static/js/main.779bf55b.js.map",
+    "64.641ad985.chunk.css.map": "/Portfolio/static/css/64.641ad985.chunk.css.map",
+    "64.b116668a.chunk.js.map": "/Portfolio/static/js/64.b116668a.chunk.js.map",
+    "769.fc04f371.chunk.css.map": "/Portfolio/static/css/769.fc04f371.chunk.css.map",
+    "769.e01fbd25.chunk.js.map": "/Portfolio/static/js/769.e01fbd25.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d1c1d680.css",
+    "static/js/main.779bf55b.js"
+  ]
+}
