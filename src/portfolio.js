@@ -1,6 +1,5 @@
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; 
-import nimation from "./assets/lottie/codingPerson"; 
 
 const splashScreen = {
   enabled: true, 
@@ -19,7 +18,6 @@ const greeting = {
   subTitle: emoji(
     "Software Developer"
   ),
-  animation: nimation,
   resumeLink:
     "../../assets/resume.pdf", 
   displayGreeting: true 
@@ -173,7 +171,7 @@ const achievementSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: "LET'S GET IN TOUCH!",
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
 };
